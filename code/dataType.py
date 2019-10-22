@@ -37,4 +37,29 @@ def seqFun() :
 
 seqFun();
 
+# working with touple datatype
+# touple is similar to list the main difference is that we cannot change the value i.e. they are immutable
+# also we use () instead of []
+
+def toupleFun() :
+    num1 = (1,2,3,4,0,'sonam')
+    tup2 = (1, 2, 3, 4, 5, 6, 7 );
+    print (tup2[1:5], "value between 1 to 5 is tup2[1:5]")
+    print (num1)
+
+    #Tuples are immutable which means you cannot update or change the values of tuple element
+    
+tup1 = (12, 34.56);
+tup2 = ('abc', 'xyz');
+
+# Following action is not valid for tuples
+# tup1[0] = 100;
+
+# So let's create a new tuple as follows
+tup3 = tup1 + tup2;
+print (tup3);
+    
+
+toupleFun()
+
 
